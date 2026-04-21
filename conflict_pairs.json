@@ -1,0 +1,142 @@
+[
+  {
+    "id": "C1",
+    "severity": "strong",
+    "type": "intra",
+    "qa": 4,
+    "qb": 4,
+    "opt_a": 0,
+    "opt_b": 2,
+    "msg": "Q4 — You selected both 'Naturally oily / moisturised' (Kapha-Snigdha) and 'Dry — needs moisturiser regularly' (Vata-Ruksha). Snigdha and Ruksha Tvak are opposite Gunas and cannot coexist. Please select only the one that truly describes your skin."
+  },
+  {
+    "id": "C2",
+    "severity": "strong",
+    "type": "intra",
+    "qa": 4,
+    "qb": 4,
+    "opt_a": 0,
+    "opt_b": 3,
+    "msg": "Q4 — 'Naturally oily / moisturised skin' (Kapha-Snigdha) and 'Cracks on palms and soles' (Vata-Ruksha Paada Sphutana) are contradictory. Snigdha Tvak does not develop Paada Sphutana. Please review."
+  },
+  {
+    "id": "C3",
+    "severity": "strong",
+    "type": "intra",
+    "qa": 7,
+    "qb": 7,
+    "opt_a": 0,
+    "opt_b": 1,
+    "msg": "Q7 — 'Large, attractive and steady gaze' (Kapha-Vishalaksha) and 'Small, dry, unsteady / restless gaze' (Vata-Tanu Chala Lochana) are classical opposites. Ref: CS Vim 8/96. Please select the option that genuinely matches your eyes."
+  },
+  {
+    "id": "C4",
+    "severity": "strong",
+    "type": "intra",
+    "qa": 20,
+    "qb": 20,
+    "opt_a": 0,
+    "opt_b": 3,
+    "msg": "Q20 — 'Sound, deep sleep — very difficult to wake' (Kapha-Guru Nidra) and 'Light sleep — awakened by small sounds' (Vata-Alpanidra) are opposite Guna expressions. Ref: CS Vim 8/97. Please keep only the one that matches your usual sleep."
+  },
+  {
+    "id": "C5",
+    "severity": "strong",
+    "type": "intra",
+    "qa": 20,
+    "qb": 20,
+    "opt_a": 1,
+    "opt_b": 5,
+    "msg": "Q20 — 'I love sleeping / tend to oversleep' (Kapha) and 'Difficulty falling asleep' (Vata) are contradictory sleep patterns. Please review."
+  },
+  {
+    "id": "C6",
+    "severity": "moderate",
+    "type": "cross",
+    "qa": 5,
+    "qb": 6,
+    "opt_a": 0,
+    "opt_b": 0,
+    "msg": "Q5 & Q6 — 'Thick, dense, lustrous, naturally oily hair' (Kapha-Ghana-Snigdha Kesha) alongside 'Premature greying before age 35' (Pitta-Akalapalita) is an unusual combination. These are typically seen in different Doshas. Please confirm this truly describes you."
+  },
+  {
+    "id": "C7",
+    "severity": "moderate",
+    "type": "cross",
+    "qa": 13,
+    "qb": 14,
+    "opt_a": 0,
+    "opt_b": 4,
+    "msg": "Q13 & Q14 — 'Very fast gait — outpace most people' (Vata-Druta Gati) with 'Very slow and relaxed in all activities' (Kapha-Manda Chesta) is inconsistent. Gait speed and general activity pace are usually aligned. Please review."
+  },
+  {
+    "id": "C8",
+    "severity": "moderate",
+    "type": "cross",
+    "qa": 16,
+    "qb": 17,
+    "opt_a": 0,
+    "opt_b": 3,
+    "msg": "Q16 & Q17 — 'Intense hunger — very uncomfortable if I skip a meal' (Pitta-Teekshna Agni) and 'Less thirst — often forget to drink water' (Kapha-Alpa Trishna) is unusual. Teekshna Agni (Pitta) typically generates both strong Kshudha AND Trishna. Please confirm."
+  },
+  {
+    "id": "C9",
+    "severity": "moderate",
+    "type": "cross",
+    "qa": 1,
+    "qb": 44,
+    "opt_a": 0,
+    "opt_b": 0,
+    "msg": "Q1 & Q44 — 'Very lean and thin' body build (Vata-Apachita Shareera) with 'Very strong — excellent endurance and sustained stamina' (Kapha-Balavan) is atypical. Low Mamsa-Medodhatu (Vata) does not usually support sustained Bala. Please review."
+  },
+  {
+    "id": "C10",
+    "severity": "advisory",
+    "type": "cross",
+    "qa": 24,
+    "qb": 23,
+    "opt_a": 0,
+    "opt_b": 0,
+    "msg": "Q24 & Q23 — 'Very quick — grasp concepts almost instantly' (Vata-Shrutagrahi) with 'Excellent long-term memory — retain for years' (Kapha-Smritimaan) is unusual. Classical pattern: Vata = quick grasp + weak retention; Kapha = slow grasp + strong retention. Please confirm — this combination, though rare, can occur."
+  },
+  {
+    "id": "C11",
+    "severity": "advisory",
+    "type": "cross",
+    "qa": 3,
+    "qb": 4,
+    "opt_a": 0,
+    "opt_b": 2,
+    "msg": "Q3 & Q4 — 'Very fair — lotus-like, lustrous complexion' (Kapha-Gaur Varna-Snigdha) with 'Dry skin — needs moisturiser regularly' (Vata-Ruksha Tvak) is an uncommon combination. Fair lustrous skin is inherently Snigdha in nature. Please verify."
+  },
+  {
+    "id": "C12",
+    "severity": "advisory",
+    "type": "cross",
+    "qa": 28,
+    "qb": 29,
+    "opt_a": 0,
+    "opt_b": 0,
+    "msg": "Q28 & Q29 — 'Very regular — same routine every single day' (Kapha-Sthira Dinacharya) and 'Very indecisive — change my mind frequently' (Vata-Anavasthita Chitta) are opposing Guna expressions (Sthira vs Chala). Please confirm both truly describe you."
+  },
+  {
+    "id": "C13",
+    "severity": "strong",
+    "type": "intra",
+    "qa": 20,
+    "qb": 20,
+    "opt_a": 1,
+    "opt_b": 3,
+    "msg": "Q20 — 'I love sleeping / tend to oversleep' (Kapha-Guru Nidra) and 'Light sleep — awakened by small sounds' (Vata-Alpanidra) are contradictory sleep patterns. Kapha individuals sleep deeply and heavily; Vata individuals sleep lightly. Please select only the one that truly describes your usual sleep quality."
+  },
+  {
+    "id": "C14",
+    "severity": "moderate",
+    "type": "intra",
+    "qa": 6,
+    "qb": 6,
+    "opt_a": 1,
+    "opt_b": 3,
+    "msg": "Q6 — 'Early hair loss / baldness' (Pitta-Khalitya) and 'Minimal hair fall, stable density over years' (Kapha-Sthira Kesha) are directly contradictory. These are opposite Dosha expressions for hair stability. Please select only the one that matches your actual hair condition."
+  }
+]

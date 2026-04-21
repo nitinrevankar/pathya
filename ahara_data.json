@@ -1,0 +1,738 @@
+{
+  "Cereals (Dhanya)": [
+    {
+      "name": "Rakta Shali",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Godhuma (Wheat)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Yava (Barley)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    }
+  ],
+  "Pulses (Shimbi Dhanya)": [
+    {
+      "name": "Mudga (Green Gram)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Masha (Black Gram)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Masura (Red Lentil)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Kulattha (Horse Gram)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Sarshapa (Mustard Seed)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Adhaki (Pigeon Pea)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Kalaya (Garden Pea)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Nishpava (Flat Bean)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 0,
+      "PA": 1,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Chanaka (Chickpea)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Tila (Sesame Seed)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Atasi (Linseed)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    }
+  ],
+  "Shaka (Vegetables & Spices)": [
+    {
+      "name": "Ardraka (Ginger)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Shigru (Drumstick)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 0,
+      "KA": 0
+    },
+    {
+      "name": "Dhanyaka (Coriander)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Ela (Cardamom)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Ervaruka (Cucumber)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Hingu (Asafoetida)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Karavellaka (Bitter Gourd)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Kushmanda (Ash Gourd)",
+      "VP": 0,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Karkotaka",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Lashuna (Garlic)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Mulaka (Radish)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Methika (Fenugreek)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Patola (Snake Gourd)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Phalandu (Onion)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Palakya (Spinach)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Patra",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Potaki",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Tanduliyaka (Amaranth)",
+      "VP": 0,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Trapusha (Cucumber/Gourd)",
+      "VP": 0,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 0
+    },
+    {
+      "name": "Twak (Cinnamon)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Upakunchika",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Vartaka (Brinjal)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Vastuka",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Varahi",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 1,
+      "KA": 0
+    }
+  ],
+  "Mamsa (Meat)": [
+    {
+      "name": "Aja (Goat)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Avi (Sheep)",
+      "VP": 0,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Kukkuta (Chicken)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Varaha (Pork)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Shasha (Rabbit)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 0
+    },
+    {
+      "name": "Kapota (Pigeon)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 0,
+      "KA": 0
+    },
+    {
+      "name": "Matsya (Fish)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Anupa Mamsa (Water animals)",
+      "VP": 0,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Jangala Mamsa (Forest animals)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Anda (Eggs)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 0,
+      "KA": 0
+    }
+  ],
+  "Dugdha (Dairy)": [
+    {
+      "name": "Go Ksheera (Cow Milk)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 0
+    },
+    {
+      "name": "Mahisha Ksheera (Buffalo Milk)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 0,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Aja Ksheera (Goat Milk)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Avi Ksheera (Sheep Milk)",
+      "VP": 0,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Ustra Ksheera (Camel Milk)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Dadhi (Yogurt / Curd)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Takra (Buttermilk)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Go Ghrita (Cow Ghee)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Mahisha Ghrita (Buffalo Ghee)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Purana Ghrita (Old Ghee)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    }
+  ],
+  "Taila (Oils)": [
+    {
+      "name": "Tila Taila (Sesame Oil)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Sarshapa Taila (Mustard Oil)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Eranda Taila (Castor Oil)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Atasi Taila (Linseed Oil)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Kusumba Taila (Safflower Oil)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    }
+  ],
+  "Madhu & Ikshu (Sweeteners)": [
+    {
+      "name": "Madhu (Honey)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Ikshu (Sugarcane)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Sharkara (Sugar)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 0
+    },
+    {
+      "name": "Guda (Jaggery)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    }
+  ],
+  "Phala (Fruits)": [
+    {
+      "name": "Draksha (Grapes)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 0
+    },
+    {
+      "name": "Kadali (Banana)",
+      "VP": 0,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Dadima (Pomegranate)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Kola (Jujube)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Amra Apakwa (Raw Mango)",
+      "VP": 0,
+      "VA": 1,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 0
+    },
+    {
+      "name": "Amra Pakwa (Ripe Mango)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Panasa (Jackfruit)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Lakucha",
+      "VP": 0,
+      "VA": 1,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Guvaka (Areca Nut)",
+      "VP": 0,
+      "VA": 0,
+      "PP": 1,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Tala (Palm Fruit)",
+      "VP": 0,
+      "VA": 0,
+      "PP": 0,
+      "PA": 1,
+      "KP": 0,
+      "KA": 1
+    },
+    {
+      "name": "Khajura (Dates)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Bijapura (Citron)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    },
+    {
+      "name": "Jambira (Lime/Lemon)",
+      "VP": 1,
+      "VA": 0,
+      "PP": 0,
+      "PA": 0,
+      "KP": 1,
+      "KA": 0
+    }
+  ]
+}

@@ -1,0 +1,1916 @@
+[
+  {
+    "id": 1,
+    "trait": "Physical",
+    "type": "single",
+    "weight": 3,
+    "question": "My body build / physique is",
+    "guna": "Apachita (Ruksha-Laghu-Vata) / Madhyama (Pitta) / Upachita (Sandra-Guru-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/96-98; Ashtanga Hridaya Sharira Sthana 3/83",
+    "learn_more": "Vata's Ruksha (dry) and Laghu (light) Gunas produce lean, thin, underdeveloped frame — Apachita Shareera. Pitta's balanced Gunas produce well-proportioned moderate frame. Kapha's Sandra (dense) and Guru (heavy) Gunas produce well-built, heavy, well-nourished frame — Upachita Shareera — the most admired physique in classical texts.",
+    "options": [
+      {
+        "text": "Very lean and thin",
+        "V": 3,
+        "P": 1,
+        "K": 0
+      },
+      {
+        "text": "Lean",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Moderate, well-proportioned",
+        "V": 0,
+        "P": 2,
+        "K": 1
+      },
+      {
+        "text": "Heavy built — tend to gain weight easily",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Very heavy — very difficult to lose weight",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "trait": "Physical",
+    "type": "single",
+    "weight": 3,
+    "question": "My height compared to others of similar age is",
+    "guna": "Hrasva/Deergha Akriti (Ruksha-Vata) / Madhyama (Pitta) / Ghana (Kapha)",
+    "reference": "Charaka Vimana Sthana 8/96; Ashtanga Hridaya Sharira Sthana 3/83",
+    "learn_more": "Both extremes — Hrasva (very short) and Dirgha (very tall) — are Vata expressions. Ruksha, Laghu, and Bahu Gunas influence skeletal development in both directions. Average height is a Pitta attribute. Kapha individuals tend toward broad, sturdy frames rather than extreme height. This dual Vata expression is explicitly described in Charaka Vimana Sthana 8/96.",
+    "options": [
+      {
+        "text": "Very short",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Short",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Average height",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      },
+      {
+        "text": "Tall",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Broad and sturdy (any height)",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "trait": "Physical",
+    "type": "single",
+    "weight": 3,
+    "question": "My natural skin complexion is",
+    "guna": "Gaur Varna (Mridu-Snigdha-Kapha) / Gaur-Pitanga (Ushna-Pitta) / Krishna/Dhusara (Ruksha-Vata)",
+    "reference": "Charaka Vimana Sthana 8/96; Sushruta Sharira Sthana 4/62-63",
+    "learn_more": "Kapha's Mridu and Snigdha Gunas produce Gaur (fair, lotus-like, lustrous) complexion — described as Padma-Patra-Sadrisha in Sushruta. Pitta's Ushna Guna gives fair with yellowish or reddish tinge (Pitta-Gaura). Vata's Ruksha Guna produces Dhusara (dusky) or Krishna (dark) complexion due to dryness of skin tissues.",
+    "options": [
+      {
+        "text": "Very fair — lotus-like, lustrous",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Fair with yellowish or reddish tinge",
+        "V": 0,
+        "P": 2,
+        "K": 1
+      },
+      {
+        "text": "Medium / wheatish",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      },
+      {
+        "text": "Dusky / olive",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Dark / very dark",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "trait": "Physical",
+    "type": "multi",
+    "weight": 3,
+    "question": "My skin texture — select all that apply",
+    "guna": "Snigdha/Shlakshna (Kapha) / Ruksha/Vishada (Vata) / Ushna/Teekshna (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/96; Ashtanga Hridaya Sharira Sthana 3/83-85",
+    "learn_more": "Kapha's Snigdha and Shlakshna Gunas produce naturally moisturised, glowing, soft skin. Vata's Ruksha Guna causes chronic dryness (Rooksha Tvak) and palmar-plantar cracking (Paada-Hasta Sphutana). Pitta's Ushna and Teekshna Gunas cause skin warmth, acne (Pidaka), freckles (Vyanga), and early wrinkle formation. Each feature is independently listed in Charaka Vimana Sthana 8/96.",
+    "options": [
+      {
+        "text": "Naturally oily / moisturised without products",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Smooth and very soft to touch",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Dry — needs moisturiser regularly",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Cracks on palms and soles",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Freckles or moles over skin (Vyanga)",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Pimples or acne tendency (Pidaka)",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Early appearance of wrinkles",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Skin warm or hot to touch",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Frequent mouth ulcers / aphthous ulcers",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "trait": "Physical",
+    "type": "single",
+    "weight": 3,
+    "question": "My hair texture and density is",
+    "guna": "Ghana/Snigdha Kesha (Sandra-Kapha) / Ruksha/Parusha (Vata) / Mridu/Kapila (Ushna-Pitta)",
+    "reference": "Charaka Vimana Sthana 8/96; Ashtanga Hridaya Sharira Sthana 3/83-85",
+    "learn_more": "Kapha's Snigdha and Ghana Gunas produce thick, dense, lustrous, oily hair — Ghana-Snigdha-Kesha. Vata's Ruksha Guna produces dry, rough, brittle hair prone to split ends. Pitta's Ushna Guna produces soft, fine hair — often reddish-brown (Kapila) or lighter in colour, reflecting heat's effect on melanin.",
+    "options": [
+      {
+        "text": "Thick, dense, lustrous and naturally oily",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Straight, black and dense",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Wavy or curly and dense",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Soft, fine, reddish-brown or light coloured",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Dry, rough, frizzy with split ends",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Scanty and thin",
+        "V": 2,
+        "P": 1,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "trait": "Physical",
+    "type": "multi",
+    "weight": 2,
+    "question": "Other hair features — select all that apply",
+    "guna": "Akalapalita / Khalitya (Ushna-Pitta) / Sthira Kesha (Sthira-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/96; Sushruta Sharira Sthana 4/62",
+    "learn_more": "Premature greying (Akalapalita) and early baldness (Khalitya) are classic Pitta expressions — Ushna Guna depletes pigment (Ranjaka Pitta) and damages follicles. Rough, split-end, dull-coloured hair indicates Vata's Ruksha-Vishada Gunas. Minimal hair fall and stable density (Sthira Kesha) is a hallmark Kapha quality.",
+    "options": [
+      {
+        "text": "Premature greying (before age 35)",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Early hair loss / baldness",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Rough / split ends / dull coloured hair",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Minimal hair fall, stable density over years",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "None of the above",
+        "V": 0,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "trait": "Physical",
+    "type": "multi",
+    "weight": 3,
+    "question": "My eyes — select all that apply",
+    "guna": "Vishalaksha/Pakshmal (Sandra-Kapha) / Tanulochana/Chala (Ruksha-Vata) / Tamranayana (Ushna-Pitta)",
+    "reference": "Charaka Vimana Sthana 8/96; Sushruta Sharira Sthana 4/62-63",
+    "learn_more": "Kapha's Sandra Guna produces Vishalaksha — large, beautiful, steady eyes with dense eyelashes (Pakshmal) — considered most auspicious. Vata's Chala Guna produces small (Tanu), dry, unsteady eyes — Chala Drishti. Pitta's Ushna and Teekshna Gunas produce coppery (Tamra) reddened eyes that flush with anger or sun.",
+    "options": [
+      {
+        "text": "Large, attractive and steady gaze",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Small, dry, with unsteady or restless gaze",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Coppery / reddish tinge in the eyes",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Eyes redden with anger or sun exposure",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Dull / slightly sunken appearance",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Milky white, clearly visible sclera",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "trait": "Physical",
+    "type": "single",
+    "weight": 2,
+    "question": "My eyelashes are",
+    "guna": "Pakshmalaksha (Sandra-Kapha) / Alpa Pakshma (Ushna-Pitta)",
+    "reference": "Charaka Vimana Sthana 8/96; Ashtanga Hridaya Sharira Sthana 3/84",
+    "learn_more": "Kapha's Sandra and Guru Gunas produce thick, long, dense, attractive eyelashes — Pakshmalaksha — a hallmark Kapha beauty feature and sign of excellent Rasa Dhatu nourishment. Pitta's Ushna Guna causes thin, scanty eyelashes (Alpa Pakshma) due to thermal depletion of hair follicles.",
+    "options": [
+      {
+        "text": "Thick, long, dense and attractive",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Thin / scanty",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Average",
+        "V": 0,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "trait": "Physical",
+    "type": "multi",
+    "weight": 2,
+    "question": "My body features — select all that apply",
+    "guna": "Bahu-Kandara (Bahu-Vata) / Shithila Mamsa (Drava-Pitta) / Samamamsa/Charu-Jangha (Sara-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/96-98; Sushruta Sharira Sthana 4/62-63",
+    "learn_more": "Vata's Bahu Guna produces prominently visible veins and tendons (Bahu-Sira-Snayu). Pitta's Drava Guna produces lax, soft muscles (Shithila Mamsa). Kapha's Sara Guna produces well-built, compact muscles (Sama Mamsa) and beautiful well-formed calf muscles (Charu Jangha) — highly valued in classical texts. Pitta's Ushna Guna also causes freckles (Vyanga).",
+    "options": [
+      {
+        "text": "Prominently visible veins and tendons on limbs",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Lax, soft muscles — tissue feels soft/flabby",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Well-built, compact and uniform muscles",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Prominent, well-formed calf muscles (Charu Jangha)",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Overall dry body (Ruksha Shareera)",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Freckles or black patches on face / body",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Broad forehead (Maha-Lalata)",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "trait": "Physical",
+    "type": "multi",
+    "weight": 3,
+    "question": "My joints — select all that apply",
+    "guna": "Anavasthita/Sashabda Sandhi (Chala-Vata) / Sushlishta Sandhi (Sandra-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/96-98; Ashtanga Hridaya Sharira Sthana 3/83",
+    "learn_more": "Vata's Chala Guna produces unstable, hypermobile joints (Anavasthita Sandhi). Vata's Vishada Guna causes crepitus — Sashabda Sandhi (joints cracking on movement). Both can coexist in the same individual. Kapha's Sandra Guna produces compact, stable, noiseless joints (Sushlishta Sandhi).",
+    "options": [
+      {
+        "text": "Produce sounds / cracking (Crepitus) on movement",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Unstable — cannot sit still, constantly moving joints",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Compact, strong and stable — no sounds",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Loose / hypermobile beyond normal range",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "trait": "Physical",
+    "type": "multi",
+    "weight": 2,
+    "question": "My teeth — select all that apply",
+    "guna": "Ruksha-Danta (Ruksha-Vata) / Danta-Vishuddha (Pitta) / Dridha-Danta (Sara-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/96; Sushruta Sharira Sthana 4/62",
+    "learn_more": "Vata's Ruksha Guna produces rough, dry, uneven, or small teeth and excessive teeth (Adhika Danta). Pitta's Ushna and Teekshna Gunas produce white, clean, lustrous teeth (Danta-Vishuddha). Kapha's Sara Guna produces well-formed, strong, proportionate, firmly rooted teeth (Dridha-Danta).",
+    "options": [
+      {
+        "text": "Rough / dry",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Small and uneven",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Excess / overcrowded teeth",
+        "V": 1,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "White, clean and lustrous",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "With stains / discolouration",
+        "V": 1,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Well-formed, strong and proportionate",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "trait": "Physical",
+    "type": "multi",
+    "weight": 2,
+    "question": "My nails — select all that apply",
+    "guna": "Alpanakha/Rukshanakha (Ruksha-Vata) / Tamranakha (Ushna-Pitta) / Deerghanakha (Sandra-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/96; Ashtanga Hridaya Sharira Sthana 3/84",
+    "learn_more": "Vata's Ruksha Guna gives small, thin, dry, brittle nails that break easily. Pitta's Ushna Guna produces coppery or pinkish-copper nail beds (Tamra Nakha) — a distinctive Pitta marker. Kapha's Sandra Guna produces long, well-formed, lustrous, strong nails (Deergha-Snigdha Nakha).",
+    "options": [
+      {
+        "text": "Small, thin, dry or brittle — break easily",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Long, well-formed, lustrous and strong",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Coppery / pinkish-copper coloured nail beds",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Grow excessively fast",
+        "V": 1,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "trait": "Physiological",
+    "type": "single",
+    "weight": 2,
+    "question": "My walking style / gait is",
+    "guna": "Drutagati/Laghugati (Laghu-Shighra-Vata) / Saaragati (Guru-Sthira-Kapha) / Madhyagati (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/96-97; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Vata's Laghu and Shighra Gunas produce fast, inconsistent gait — Druta Gati. Kapha's Guru and Sthira Gunas produce steady, firm, deliberate gait — described as Gaja-Gati (elephant-like) in classical texts. Pitta individuals walk with purpose at moderate speed — neither rushing nor leisurely.",
+    "options": [
+      {
+        "text": "Fast / quick — outpace most people",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Inconsistent — speed and style keeps changing",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Purposeful, moderate speed, precise steps",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Steady, consistent and firm — even-paced",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Slow and relaxed — never in a hurry",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "trait": "Physiological",
+    "type": "single",
+    "weight": 2,
+    "question": "My general activities and task initiation are",
+    "guna": "Laghu-Chesta/Shighra-Arambha (Vata) / Manda-Chesta/Deergha-Arambha (Kapha) / Teekshna (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Vata's Shighra Guna drives rapid initiation — quick to start, often inconsistent in completion. Kapha's Manda Guna causes slow delayed initiation (Deergha-Arambha) but steady, persistent, thorough execution. Pitta's Teekshna Guna produces precise, orderly, goal-directed actions with excellent follow-through.",
+    "options": [
+      {
+        "text": "Very quick — initiate and complete tasks fast",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Quick to initiate but inconsistent in completing",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Precise, orderly and systematic in all actions",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Slow to start but persistent and thorough once begun",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Very slow and relaxed in all activities",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "trait": "Physiological",
+    "type": "multi",
+    "weight": 2,
+    "question": "My voice and speech quality — select all that apply",
+    "guna": "Ruksha/Sanna Swara (Ruksha-Vata) / Gambhira-Snigdha Swara (Snigdha-Kapha) / Teekshna (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/96-97; Sushruta Sharira Sthana 4/62",
+    "learn_more": "Vata's Ruksha Guna produces rough (Parusha), feeble (Kshama), broken, or stammering voice — Sanna Swara. Kapha's Snigdha Guna produces deep (Gambhira), pleasant, melodious, resonant voice — one of the most prized Kapha qualities. Pitta speaks with speed, force, and clarity — Teekshna Vak — often dominating conversations.",
+    "options": [
+      {
+        "text": "Deep, pleasant and melodious",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Clear and well-modulated",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Feeble / low-pitched",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Rough / hoarse / unpleasant",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Stammering / broken / unclear",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Fast, high-pitched or inconsistent",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "trait": "Physiological",
+    "type": "single",
+    "weight": 3,
+    "question": "My hunger pattern and eating speed",
+    "guna": "Teekshna-Kshudha/Bahubhuja (Teekshna-Pitta) / Vishama Kshudha (Vata) / Manda Kshudha (Manda-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/85",
+    "learn_more": "Pitta's Teekshna and Ushna Gunas produce intense, frequent hunger (Teekshna Kshudha) — skipping meals causes significant irritability. Called Bahubhuja (eating much) in classical texts. Vata shows irregular, variable hunger (Vishama Kshudha). Kapha's Manda Guna produces slow, moderate hunger — comfortably skip meals (Kshut-Sahishnu).",
+    "options": [
+      {
+        "text": "Intense — very uncomfortable/irritable if I skip a meal",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Fast eater with irregular meal timing",
+        "V": 2,
+        "P": 1,
+        "K": 0
+      },
+      {
+        "text": "Irregular hunger — varies significantly day to day",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Slow eater with moderate, regular hunger",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Less hunger — can comfortably skip meals",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "trait": "Physiological",
+    "type": "single",
+    "weight": 3,
+    "question": "My thirst pattern is",
+    "guna": "Prabhuta-Pana/Teekshna-Trishna (Ushna-Pitta) / Alpa-Pana (Sheeta-Kapha) / Vishama (Vata)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/85",
+    "learn_more": "Pitta's Ushna and Teekshna Gunas create intense, frequent thirst (Teekshna Trishna) — Pitta individuals drink large quantities. Kapha's Sheeta Guna reduces thirst — often forget to drink water (Alpa Trishna). Vata shows irregular, unpredictable thirst patterns (Vishama Trishna).",
+    "options": [
+      {
+        "text": "Intense — drink large quantities, frequently thirsty",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Moderate and regular thirst",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      },
+      {
+        "text": "Irregular — unpredictably thirsty",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Less — often forget to drink water",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "trait": "Physiological",
+    "type": "single",
+    "weight": 2,
+    "question": "My bowel and urine habits are",
+    "guna": "Prabhuta-Srishta (Drava-Sara-Pitta) / Vibandha (Ruksha-Vata) / Manda (Manda-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-85",
+    "learn_more": "Pitta's Drava and Sara Gunas produce regular, easy, sometimes excessive bowel evacuation — Prabhuta-Srishta Mala. Vata's Ruksha Guna causes constipation, hard stools (Vibandha). Kapha produces regular but slow, heavy, well-formed stools (Manda Mala Pravritti).",
+    "options": [
+      {
+        "text": "Regular, easy and satisfactory bowel movement",
+        "V": 0,
+        "P": 2,
+        "K": 1
+      },
+      {
+        "text": "Loose stools / excess stool / frequent urination",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Constipation — hard or difficult stools frequently",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Irregular — alternates between loose and constipated",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Regular but slow, heavy and well-formed",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "trait": "Physiological",
+    "type": "single",
+    "weight": 3,
+    "question": "My sweating pattern is",
+    "guna": "Prabhuta Sweda (Drava-Pitta) / Alpa Sweda (Sheeta-Kapha) / Vishama Sweda (Vata)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/85",
+    "learn_more": "Pitta's Drava Guna produces profuse sweating — Prabhuta Sweda — often triggered by mild activity or warmth. Kapha's Sheeta Guna suppresses sweating — very little even during vigorous exercise (Alpa Sweda). Vata shows Vishama Sweda — irregular, inconsistent sweating with no predictable pattern.",
+    "options": [
+      {
+        "text": "Profuse sweating — even with mild activity or heat",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Noticeable sweating during regular exertion",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Moderate, normal sweating",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      },
+      {
+        "text": "Less sweating even during exercise or hot weather",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Irregular and inconsistent — no set pattern",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "trait": "Physiological",
+    "type": "multi",
+    "weight": 2,
+    "question": "My sleep pattern — select all that apply",
+    "guna": "Jagaruka/Alpanidra (Ruksha-Vata) / Nidrapriya/Guru-Nidra (Guru-Snigdha-Kapha) / Madhya-Nidra (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Kapha's Guru and Snigdha Gunas promote deep, prolonged, sound sleep — Guru Nidra. Vata's Ruksha and Laghu Gunas produce light, insufficient, easily disturbed sleep (Alpanidra / Jagaruka). Pitta individuals have moderate, good-quality sleep with vivid, intense dreams (Teekshna Swapna) — a reflection of active Agni.",
+    "options": [
+      {
+        "text": "Sound, deep sleep — very difficult to wake",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "I love sleeping / tend to oversleep",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Moderate sleep 6-7 hrs, vivid or intense dreams",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Light sleep — awakened by small sounds",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Less sleep — 5-6 hours feels sufficient",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Difficulty falling asleep",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Irregular sleeping habits — no fixed schedule",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "trait": "Physiological",
+    "type": "single",
+    "weight": 2,
+    "question": "My talking habit is",
+    "guna": "Vachala (Chala-Bahu-Vata) / Pragalbha Vakta (Teekshna-Pitta) / Mitvak (Mridu-Manda-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-85",
+    "learn_more": "Vata's Bahu and Chala Gunas produce talkative, rapid, sometimes wandering, repetitive speech — Vachala. Pitta's Teekshna Guna produces forceful, dominant, eloquent speech — Pragalbha Vakta. Kapha's Mridu and Manda Gunas produce soft-spoken, limited but meaningful, thoughtful speech — Mitvak.",
+    "options": [
+      {
+        "text": "Talkative — talk a lot, sometimes wander off-topic",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Eloquent and dominant — forcefully establish my views",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Soft spoken, limited but meaningful and thoughtful",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Moderate talker",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "trait": "Physiological",
+    "type": "multi",
+    "weight": 1,
+    "question": "My dreams are usually about — select all that apply",
+    "guna": "Vata Swapna (Akasha-Vayu) / Pitta Swapna (Agni-Tejas) / Kapha Swapna (Jala-Prithvi)",
+    "reference": "Charaka Indriya Sthana 5/14-15; Charaka Sutrasthana 21/25-30",
+    "learn_more": "Dreams (Swapna Vichara) are a classical Prakriti indicator. Vata dreams involve flying, mountains, dried rivers, restless movement — Akasha and Vayu expressions. Pitta dreams involve fire, conflict, lightning, red/gold colours — Agni and Tejas expressions. Kapha dreams involve serene water bodies, lotus, romantic and sentimental themes — Jala and Prithvi expressions.",
+    "options": [
+      {
+        "text": "Flying, walking in sky / mountains / open spaces",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Searching, being lost or feeling restless",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Fighting, conflict or frightening nightmares",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Fire, lightning, gold or red colours",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Water bodies — oceans, rivers, lakes",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Romantic, sentimental or deeply peaceful themes",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Rarely remember dreams",
+        "V": 0,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "trait": "Psychological",
+    "type": "single",
+    "weight": 3,
+    "question": "My memory and recall ability is",
+    "guna": "Alpa-Smriti/Chala-Smriti (Shighra-Chala-Vata) / Teekshna-Smriti (Pitta) / Smritimaan (Sthira-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/98; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Kapha's Sthira Guna produces excellent, reliable, long-term memory — Smritimaan — retaining information for years. Vata's Shighra Guna allows quick initial grasp but Chala Guna causes rapid forgetting (Chala Smriti). Pitta gives sharp, selective, focused memory — strong recall of relevant facts.",
+    "options": [
+      {
+        "text": "Excellent long-term memory — retain things for years",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Sharp, selective memory for important things",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Quick to grasp but forget soon after",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Unstable — forget important things frequently",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Average memory",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "trait": "Psychological",
+    "type": "single",
+    "weight": 3,
+    "question": "My grasping / comprehension ability is",
+    "guna": "Shrutagrahi (Shighra-Vata) / Nipunamati/Medhavi (Teekshna-Pitta) / Chiragrahi (Manda-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97-98; Ashtanga Hridaya Sharira Sthana 3/86",
+    "learn_more": "Vata's Shighra Guna gives very quick initial comprehension — Shrutagrahi. Pitta's Teekshna Guna gives deep analytical intelligence — Medhavi — finding patterns and implications. Kapha's Manda Guna causes slow initial comprehension (Chiragrahi) but information once understood is permanently and accurately retained.",
+    "options": [
+      {
+        "text": "Very quick — grasp concepts almost instantly",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Analytical — understand deeply, find patterns",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Slow but thorough — takes time but retains permanently",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Moderate — average comprehension speed",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "trait": "Psychological",
+    "type": "single",
+    "weight": 3,
+    "question": "My anger and temperament pattern is",
+    "guna": "Krodhi/Kshipra-Kopa (Teekshna-Ushna-Pitta) / Alpa-Krodha (Staimitya-Kapha) / Avasada (Vata)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/85",
+    "learn_more": "Pitta's Ushna and Teekshna Gunas produce quick anger (Kshipra Kopa) but also quick cooling (Kshipra Prasaada). Kapha's Staimitya Guna makes them very slow to anger (Alpa Krodha) but when angry, they hold grudges long (Chirodvega). Vata individuals experience agitation and restlessness (Avasada) rather than true anger.",
+    "options": [
+      {
+        "text": "Short-tempered — angry quickly and cool down quickly",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Get irritable easily but forget about it soon",
+        "V": 1,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Calm and patient — rarely lose temper",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Get agitated or restless when things go wrong",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Slow to anger but hold grudges for a long time",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Balanced, moderate temper",
+        "V": 0,
+        "P": 0,
+        "K": 1
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "trait": "Psychological",
+    "type": "multi",
+    "weight": 2,
+    "question": "My mind is usually — select all that apply",
+    "guna": "Chala/Bahu/Shighra Manas (Vata) / Teekshna Manas (Pitta) / Sthira Manas (Kapha)",
+    "reference": "Charaka Vimana Sthana 8/96-98; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Vata's Chala, Bahu, and Shighra Gunas produce active, restless, imaginative, anxiety-prone minds — difficulty sustaining focus. Pitta's Teekshna Guna gives analytical, critical, ambitious, perfectionistic minds. Kapha's Sthira Guna gives deeply stable, calm, composed mental states — highly resistant to disturbance.",
+    "options": [
+      {
+        "text": "Very active and imaginative",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Restless — difficult to focus for long",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Anxious or worried frequently",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Analytical and critical — examine everything",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Calm, stable and composed",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Moods keep changing frequently",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "trait": "Psychological",
+    "type": "single",
+    "weight": 3,
+    "question": "My weather and temperature tolerance is",
+    "guna": "Sheeta-Asahishnu (Sheeta-Vata) / Ushna-Asahishnu/Sheetabhilashi (Ushna-Pitta) / Sarva-Sahishnu (Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-85",
+    "learn_more": "Vata's Sheeta Guna makes individuals highly sensitive to cold — Sheeta-Asahishnu. Pitta's Ushna Guna makes them intolerant of heat — always seeking cool environments (Sheetabhilashi). Kapha's Sthira and Sheeta Gunas make them tolerant of most weather conditions — Sarva-Sahishnu.",
+    "options": [
+      {
+        "text": "Cannot tolerate cold — always prefer warmth",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Cannot tolerate heat — always prefer cool/cold",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Fatigue easily in hot weather / sun",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Sensitive to both extremes of temperature",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Generally tolerant of most weather conditions",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "trait": "Psychological",
+    "type": "single",
+    "weight": 2,
+    "question": "My lifestyle regularity is",
+    "guna": "Niyamita/Sthira-Dinacharya (Sthira-Kapha) / Vishama/Aniyamita (Chala-Vata) / Madhyama (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83",
+    "learn_more": "Kapha's Sthira Guna produces highly regular, disciplined, stable daily routines. Vata's Chala Gunas produce erratic, inconsistent, frequently changing routines (Vishama Dinacharya) — starting many routines but maintaining none. Pitta individuals are goal-focused and moderately regular.",
+    "options": [
+      {
+        "text": "Very regular — same routine every single day",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Moderately regular with some planned variation",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Somewhat erratic — routines change frequently",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Very erratic — no fixed routine at all",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "trait": "Psychological",
+    "type": "single",
+    "weight": 2,
+    "question": "My decision making is",
+    "guna": "Anavasthita Atma/Chala-Mati (Chala-Vata) / Teekshna-Nischaya (Pitta) / Dridha-Nischaya (Sthira-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Vata's Chala Mati causes indecisiveness (Anavasthita-Chitta) — frequent reversals. Pitta's Teekshna Guna gives quick, confident, often dogmatic decisions — Teekshna Nischaya. Kapha's Sthira Guna gives slow but extremely firm decisions (Dridha Nischaya) — rarely ever reversed.",
+    "options": [
+      {
+        "text": "Very indecisive — change my mind frequently",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Quick and confident — sometimes impulsive",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Slow but very firm — rarely change once decided",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Moderate — thoughtful but timely",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "trait": "Psychological",
+    "type": "single",
+    "weight": 2,
+    "question": "My friendship and relationship patterns are",
+    "guna": "Adridha-Sauhrida/Shighra-Sauhrida (Shighra-Vata) / Sthira-Sauhrida (Sthira-Kapha) / Teekshna (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/85-87",
+    "learn_more": "Vata's Shighra Guna creates friendships quickly but they are unstable and transient (Adridha Sauhrida). Kapha's Sthira Guna produces few but deeply loyal, lifelong, unwavering friendships — Dridha-Mitra. Pitta cultivates selective, purpose-aligned friendships with high expectations.",
+    "options": [
+      {
+        "text": "Many friends — make friends quickly but they change often",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Friendships are fickle — change very frequently",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Few but deeply loyal, lifelong friendships",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Selective — quality-focused, high expectations",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "trait": "Psychological",
+    "type": "single",
+    "weight": 2,
+    "question": "My self-control and discipline are",
+    "guna": "Alaulupa (Sthira-Kapha) / Ajitendriya (Shighra-Vata) / Teekshna-Niyama (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/85",
+    "learn_more": "Kapha's Sthira Guna gives excellent natural ability to resist temptations (Alaulupa) — self-control comes naturally. Vata's Shighra Guna causes impulsive behaviour and poor Indriya restraint (Ajitendriya). Pitta's discipline is goal-oriented and ambitious — excellent when motivated.",
+    "options": [
+      {
+        "text": "Excellent — very disciplined, rarely give in to temptation",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Good — disciplined with consistent conscious effort",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Poor — frequently give in to impulses",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Variable — depends heavily on the situation",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "trait": "Psychological",
+    "type": "single",
+    "weight": 3,
+    "question": "My intelligence type is best described as",
+    "guna": "Nipunamati/Medhavi (Teekshna-Pitta) / Buddhiyukta (Sthira-Kapha) / Chala-Buddhi (Shighra-Vata)",
+    "reference": "Charaka Vimana Sthana 8/97-98; Ashtanga Hridaya Sharira Sthana 3/86",
+    "learn_more": "Pitta's Teekshna Guna gives sharp, analytical, pattern-finding intelligence — Medhavi. Kapha's Sthira Guna gives deep, wise, profound intelligence — Buddhiyukta — slow in acquisition but producing comprehensive understanding. Vata's Laghu Guna gives creative, versatile, broad intelligence (Chala Buddhi) — curious but sometimes scattered.",
+    "options": [
+      {
+        "text": "Sharp and analytical — find patterns and connections quickly",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Deep and wise — thorough, comprehensive understanding",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Creative and versatile — broad interests, many ideas",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Average — moderate overall",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "trait": "Psychological",
+    "type": "multi",
+    "weight": 2,
+    "question": "My fear and courage response — select all that apply",
+    "guna": "Teekshna-Parakrama/Shoora (Teekshna-Pitta) / Hinasattva/Bhiru (Shighra-Vata) / Sthira (Sthira-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-85",
+    "learn_more": "Pitta's Teekshna Guna produces natural courage (Shoora) — refusal to surrender under fear (Teekshna Parakrama). Vata's Shighra Guna causes fearfulness (Bhiru) and easily startled response (Hinasattva). Classical texts distinguish Bhaya (fear response) from Udvega (panic) — both Vata expressions. Kapha's Sthira Guna produces calm, unshakeable stability in adversity.",
+    "options": [
+      {
+        "text": "Very brave — stand for values regardless of opposition",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Brave when needed, composed in adversity",
+        "V": 0,
+        "P": 1,
+        "K": 1
+      },
+      {
+        "text": "Get frightened easily in unfamiliar or adverse situations",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Tend to panic — lose composure under strong pressure",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Have experienced sudden panic attacks without obvious trigger",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Stable and unshakeable — rarely feel fear or panic",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "trait": "Behavioral",
+    "type": "multi",
+    "weight": 3,
+    "question": "My natural food taste preferences — select your top 2 to 3",
+    "guna": "Madhura/Amla/Lavana (Vata-sahaja) / Tikta/Kashaya (Pitta-sahaja) / Katu/Tikta (Kapha-sahaja)",
+    "reference": "Charaka Sutrasthana 26/43; Charaka Vimana Sthana 8/97",
+    "learn_more": "Prakriti influences natural taste preferences (Ruchi) through constitutional Guna alignment. Vata individuals naturally gravitate toward Madhura (sweet), Amla (sour), and Lavana (salty) — the three Vata-balancing Rasas. Pitta prefers Tikta (bitter) and Kashaya (astringent). Kapha naturally craves Katu (pungent) and Tikta — the Kapha-stimulating Rasas.",
+    "options": [
+      {
+        "text": "Sweet / Madhura",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Sour / tangy — Amla",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Salty — Lavana",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Bitter — Tikta",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Astringent — Kashaya",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Pungent / spicy — Katu",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "trait": "Behavioral",
+    "type": "single",
+    "weight": 2,
+    "question": "My food and drink temperature preference is",
+    "guna": "Ushna-Annapana-Kanksha (Sheeta-Vata) / Sheeta-Abhilashi (Ushna-Pitta) / Ushna-Laghu (Kapha)",
+    "reference": "Charaka Sutrasthana 26; Ashtanga Hridaya Sutrasthana 10/17",
+    "learn_more": "Vata's Sheeta Guna makes individuals strongly prefer hot or warm food and drinks (Ushna Annapana Kanksha). Pitta's Ushna Guna creates preference for cool or cold foods (Sheeta Abhilashi). Kapha benefits constitutionally from warm, light foods.",
+    "options": [
+      {
+        "text": "Hot / warm food and drinks always — cold is uncomfortable",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Cold / cool food and drinks — prefer strongly",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Moderately warm — not too hot or cold",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "No strong preference",
+        "V": 0,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "trait": "Behavioral",
+    "type": "single",
+    "weight": 1,
+    "question": "My exercise and physical activity habits are",
+    "guna": "Vyayama-Sheela (Sthira-Kapha) / Chapala-Vyayama (Chala-Vata) / Teekshna-Vyayama (Pitta)",
+    "reference": "Charaka Sutrasthana 7/31-32; Ashtanga Hridaya Sutrasthana 2/10",
+    "learn_more": "Kapha's Sthira Guna gives excellent exercise endurance and consistent, habitual physical activity (Vyayama Sheela). Vata individuals start enthusiastically but are inconsistent (Chapala) — cycles of intensity followed by long breaks. Pitta exercises with intensity and competitive goal orientation (Teekshna Vyayama).",
+    "options": [
+      {
+        "text": "Regular, consistent — exercise without fail daily",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Intense when I do it, but sometimes skip",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Irregular — enthusiastic phases then long inactive periods",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Prefer rest / minimal physical activity",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "trait": "Behavioral",
+    "type": "multi",
+    "weight": 1,
+    "question": "My hobbies and interests — select all that apply",
+    "guna": "Shastra-Priya (Sthira-Kapha) / Yatra-Priya (Chala-Vata) / Teekshna-Kriya (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Kapha individuals prefer stable, nurturing, knowledge-based activities — reading, gardening (Shastra Priya). Vata prefer variety, movement, novelty — travel, dance, creative arts (Yatra Priya). Pitta prefer goal-oriented, challenging, competitive activities.",
+    "options": [
+      {
+        "text": "Travelling to new places",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Reading / studying / classical knowledge",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Music, singing or listening",
+        "V": 1,
+        "P": 0,
+        "K": 1
+      },
+      {
+        "text": "Gardening / nurturing nature",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Adventure, challenge, competitive activities",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Dancing / creative performing arts",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Comfortable, luxurious lifestyle activities",
+        "V": 0,
+        "P": 0,
+        "K": 1
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "trait": "Behavioral",
+    "type": "multi",
+    "weight": 1,
+    "question": "About myself — I feel that (select all that apply)",
+    "guna": "Multiple Prakriti-based personality expressions — Charaka Vimana Sthana 8/97",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Pitta individuals identify with efficiency, organisation, and perfectionism (Teekshna Guna expressions). Kapha individuals are patient listeners and good team players (Mridu and Sthira Guna expressions). Vata individuals love freedom, resist fixed commitments, and frequently change plans (Chala Guna expression).",
+    "options": [
+      {
+        "text": "I like to be free and unattached — dislike rigid structure",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "I am efficient, organised and capable",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "I am a perfectionist about details",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "I cannot accept disagreement or opposition easily",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "I am a patient listener",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "I am a good follower / team player",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "I frequently change my plans, goals or interests",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "trait": "Behavioral",
+    "type": "multi",
+    "weight": 2,
+    "question": "My values and moral character — select all that apply",
+    "guna": "Suchi/Satyavadi (Teekshna-Pitta) / Vineeta/Gurumanayita (Snigdha-Sthira-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97; Charaka Sharira Sthana 1/101",
+    "learn_more": "Pitta's Teekshna Guna produces purity orientation (Suchi) and absolute truthfulness (Satyavadi). Kapha's Snigdha and Sthira Gunas produce natural politeness (Vineeta), humility, and deep respect for elders and teachers (Gurumanayita). Kapha individuals are naturally affectionate toward dependents (Poshya-Vatsala).",
+    "options": [
+      {
+        "text": "Very particular about purity and cleanliness",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Truthful even when it is difficult or uncomfortable",
+        "V": 0,
+        "P": 2,
+        "K": 1
+      },
+      {
+        "text": "Polite and humble with everyone",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Deep respect for elders and teachers",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Affectionate and caring towards dependents",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "trait": "Behavioral",
+    "type": "multi",
+    "weight": 1,
+    "question": "My self-concept — I identify with (select all that apply)",
+    "guna": "Abhimani/Stutipriya (Teekshna-Pitta) / Gambhira/Sulajjo (Sthira-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/85-87",
+    "learn_more": "Pitta's Teekshna Guna produces competitive spirit (Spardha) and fondness for recognition (Stutipriya / Abhimani). Kapha's Sthira Guna produces stable, dignified, secure self-concept (Gambhira) and genuine humility (Sulajjo). Vata individuals have variable, inconsistent self-image.",
+    "options": [
+      {
+        "text": "I have a strong competitive spirit",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "I like to be praised and recognised",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "I have a dignified, stable sense of identity",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "I am genuinely modest and humble",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "My self-image keeps changing frequently",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "trait": "Behavioral",
+    "type": "single",
+    "weight": 1,
+    "question": "My generosity and giving nature is",
+    "guna": "Pariganya Chirat Pradadati Bahu (Sthira-Snigdha-Kapha) / Vishama Dana (Vata) / Kritadana (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/87",
+    "learn_more": "Kapha's Snigdha and Sthira Gunas produce genuinely generous, judiciously giving nature — Pradadati Bahu — described as one of Kapha's most admirable behavioral qualities. Pitta gives competitively or when it reflects well on them (Kritadana). Vata is inconsistent (Vishama Dana).",
+    "options": [
+      {
+        "text": "Genuinely generous — give freely and thoughtfully",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Generous when I see genuine need",
+        "V": 0,
+        "P": 1,
+        "K": 1
+      },
+      {
+        "text": "Give but like to be acknowledged for it",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Inconsistent — sometimes generous, sometimes not",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "trait": "Behavioral",
+    "type": "single",
+    "weight": 1,
+    "question": "My faith and belief system is",
+    "guna": "Aastika/Dridha-Dharma (Sthira-Kapha) / Dharmatma (Pitta) / Nastika/Chala-Dharma (Chala-Vata)",
+    "reference": "Charaka Vimana Sthana 8/97; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Kapha's Sthira Guna produces deep, unwavering, traditional faith (Dridha Dharma / Aastika). Pitta individuals are principled and ethically strong (Dharmatma) but may be rigid about beliefs. Vata's Chala Guna produces skepticism or frequently changing belief systems (Nastika / Chala Dharma).",
+    "options": [
+      {
+        "text": "Deep, unwavering faith — follow traditions strongly",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Principled and truthful — strong ethical/moral stance",
+        "V": 0,
+        "P": 2,
+        "K": 1
+      },
+      {
+        "text": "Moderate — questioning but respectful",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      },
+      {
+        "text": "Skeptical or frequently changing beliefs",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "trait": "Behavioral",
+    "type": "single",
+    "weight": 2,
+    "question": "My body odour is",
+    "guna": "Swedo-Durgandha/Visra-Guna (Ushna-Pitta) / Alpa-Gandha (Sheeta-Kapha)",
+    "reference": "Charaka Vimana Sthana 8/97; Sushruta Sharira Sthana 4/62-63",
+    "learn_more": "Pitta's Visra Guna (raw-flesh smell) produces characteristically strong body odour from armpits (Kaksha), scalp (Shira), and mouth (Mukha) — one of the most reliably identified Pitta features. Called Puti Gandha in classical texts. Kapha individuals have minimal, pleasant body odour (Alpa Gandha). Vata shows variable body odour.",
+    "options": [
+      {
+        "text": "Strong — others have noticed or commented",
+        "V": 0,
+        "P": 3,
+        "K": 0
+      },
+      {
+        "text": "Moderate / normal perspiration smell",
+        "V": 0,
+        "P": 1,
+        "K": 0
+      },
+      {
+        "text": "Minimal body odour",
+        "V": 0,
+        "P": 0,
+        "K": 2
+      },
+      {
+        "text": "Variable — depends on day / activity / diet",
+        "V": 1,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "trait": "Behavioral",
+    "type": "single",
+    "weight": 2,
+    "question": "My physical endurance and strength is",
+    "guna": "Balavan (Sara-Kapha) / Alpa-Bala (Ruksha-Vata) / Madhyabala (Pitta)",
+    "reference": "Charaka Vimana Sthana 8/96-97; Ashtanga Hridaya Sharira Sthana 3/83-87",
+    "learn_more": "Kapha's Sara Guna gives naturally great, sustained endurance, physical stamina, and strength (Balavan) — Kapha Sara is the highest expression of physical nourishment. Vata's Ruksha and Laghu Gunas produce less physical strength (Alpa Bala) — quick fatigue. Pitta has moderate strength (Madhyabala) with strong competitive drive.",
+    "options": [
+      {
+        "text": "Very strong — excellent endurance and sustained stamina",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Moderate — average physical strength and endurance",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Less — fatigue easily, not very strong physically",
+        "V": 3,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Strong in spurts but tires quickly",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "trait": "Behavioral",
+    "type": "single",
+    "weight": 1,
+    "question": "My sexual desire compared to others of similar age is",
+    "guna": "Madhura/Bahu-Shukra (Snigdha-Guru-Kapha) / Teekshna-Kama (Ushna-Pitta) / Alpa/Vishama (Ruksha-Vata)",
+    "reference": "Charaka Vimana Sthana 8/96-97; Charaka Sharira Sthana 4/34; Ashtanga Hridaya Sharira Sthana 3/87",
+    "learn_more": "Kapha's Snigdha and Guru Gunas produce naturally high, sustained sexual desire with good reproductive capacity — Bahu Shukra (excellent Shukra Dhatu nourishment). Pitta's Teekshna Guna produces intense but sometimes inconsistent desire. Vata's Ruksha Guna reduces both desire (Alpa Shukra) and capacity, or makes them highly irregular (Vishama).",
+    "options": [
+      {
+        "text": "High and consistent",
+        "V": 0,
+        "P": 0,
+        "K": 3
+      },
+      {
+        "text": "Moderate and normal",
+        "V": 0,
+        "P": 1,
+        "K": 1
+      },
+      {
+        "text": "Intense but variable",
+        "V": 0,
+        "P": 2,
+        "K": 0
+      },
+      {
+        "text": "Low or irregular",
+        "V": 2,
+        "P": 0,
+        "K": 0
+      },
+      {
+        "text": "Prefer not to answer",
+        "V": 0,
+        "P": 0,
+        "K": 0
+      }
+    ]
+  }
+]

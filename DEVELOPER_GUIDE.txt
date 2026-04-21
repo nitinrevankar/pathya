@@ -1,0 +1,319 @@
+
+===============================================================
+e-Prakruti Web Deployment Guide
+For CodeIgniter 4 Developer
+---------------------------------------------------------------
+Project: e-Prakruti Assessment Tool v8.0
+Author: Dr. Prasanna Kulkarni, SKAMC Bangalore
+===============================================================
+
+SECTION 1 — FILES YOU RECEIVE
+===============================================================
+
+1. eprakruti_api.py         Python FastAPI backend (YOU DO NOT EDIT THIS)
+2. eprakruti_core.py        All scoring/calculation logic (YOU DO NOT EDIT)
+3. prakruti_app_v8.py       Full Streamlit app — REFERENCE ONLY, do not deploy
+4. questions.json           45 questions + options (auto-generated from API)
+5. ahara_data.json          Food database (auto-generated from API)
+6. india_geo.json           State/district/Desha map (auto-generated from API)
+7. requirements_api.txt     Python dependencies for the API
+
+SECTION 2 — SERVER SETUP
+===============================================================
+
+Your server needs TWO things running:
+  A) PHP / Apache for CodeIgniter 4 (normal setup)
+  B) Python 3.10+ for the FastAPI backend
+
+Step 1 — Install Python dependencies:
+    pip install fastapi uvicorn reportlab pillow python-multipart
+
+Step 2 — Start the Python API (runs on port 8001):
+    cd /path/to/eprakruti/
+    uvicorn eprakruti_api:app --host 127.0.0.1 --port 8001
+
+    For production, use a systemd service or supervisor to keep it running.
+    The API runs on localhost only — CI4 calls it internally.
+
+Step 3 — CI4 calls the API at:
+    http://127.0.0.1:8001/
+
+SECTION 3 — MYSQL DATABASE SCHEMA
+===============================================================
+
+CREATE DATABASE eprakruti CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE eprakruti;
+
+-- Health seekers (participants)
+CREATE TABLE health_seekers (
+    id              INT AUTO_INCREMENT PRIMARY KEY,
+    session_token   VARCHAR(64) UNIQUE NOT NULL,
+    full_name       VARCHAR(120) NOT NULL,
+    age             TINYINT UNSIGNED NOT NULL,
+    gender          ENUM('Male','Female') NOT NULL,
+    height_cm       DECIMAL(5,1),
+    weight_kg       DECIMAL(5,1),
+    waist_cm        DECIMAL(5,1),
+    hip_cm          DECIMAL(5,1),
+    bmi             DECIMAL(4,1),
+    bmi_category    VARCHAR(20),
+    bmr_kcal        DECIMAL(7,1),
+    fat_pct         DECIMAL(4,1),
+    specific_bmr    DECIMAL(4,1),
+    whr             DECIMAL(4,3),
+    state           VARCHAR(60),
+    district        VARCHAR(80),
+    desha           VARCHAR(40),
+    dietary_pref    VARCHAR(60),
+    meat_freq       TINYINT DEFAULT 3,
+    created_at      DATETIME DEFAULT CURRENT_TIMESTAMP,
+    INDEX(session_token)
+);
+
+-- Individual question responses
+CREATE TABLE responses (
+    id              INT AUTO_INCREMENT PRIMARY KEY,
+    seeker_id       INT NOT NULL,
+    question_id     TINYINT UNSIGNED NOT NULL,
+    question_type   ENUM('single','multi') NOT NULL,
+    answer_index    TINYINT,         -- for single-select
+    answer_indices  VARCHAR(50),     -- for multi-select: "0,2,4"
+    answer_text     TEXT,            -- human-readable answer
+    FOREIGN KEY (seeker_id) REFERENCES health_seekers(id) ON DELETE CASCADE,
+    INDEX(seeker_id)
+);
+
+-- Final scores
+CREATE TABLE prakriti_scores (
+    id              INT AUTO_INCREMENT PRIMARY KEY,
+    seeker_id       INT NOT NULL UNIQUE,
+    -- Trait-wise
+    phys_v          DECIMAL(4,1), phys_p DECIMAL(4,1), phys_k DECIMAL(4,1),
+    physio_v        DECIMAL(4,1), physio_p DECIMAL(4,1), physio_k DECIMAL(4,1),
+    psych_v         DECIMAL(4,1), psych_p DECIMAL(4,1), psych_k DECIMAL(4,1),
+    behav_v         DECIMAL(4,1), behav_p DECIMAL(4,1), behav_k DECIMAL(4,1),
+    -- Overall
+    quest_v         DECIMAL(4,1), quest_p DECIMAL(4,1), quest_k DECIMAL(4,1),
+    anthro_v        DECIMAL(4,1), anthro_p DECIMAL(4,1), anthro_k DECIMAL(4,1),
+    final_v         DECIMAL(4,1), final_p DECIMAL(4,1), final_k DECIMAL(4,1),
+    prakriti_name   VARCHAR(80),
+    prakriti_icon   VARCHAR(10),
+    scored_at       DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (seeker_id) REFERENCES health_seekers(id) ON DELETE CASCADE
+);
+
+-- Conflicts detected during assessment
+CREATE TABLE detected_conflicts (
+    id              INT AUTO_INCREMENT PRIMARY KEY,
+    seeker_id       INT NOT NULL,
+    conflict_id     VARCHAR(5),
+    severity        VARCHAR(10),
+    overridden      TINYINT(1) DEFAULT 0,
+    FOREIGN KEY (seeker_id) REFERENCES health_seekers(id)
+);
+
+SECTION 4 — CI4 CONTROLLER STRUCTURE
+===============================================================
+
+Recommended CI4 controllers:
+
+app/Controllers/
+    Assessment.php       -- Show questions (loads from API /questions)
+    Submit.php           -- Save responses, call /score
+    Results.php          -- Show results, trigger PDF download
+    AharaDesha.php       -- Dietary preference + location form
+    Admin.php            -- Research data export, participant list
+
+app/Models/
+    HealthSeekerModel.php
+    ResponseModel.php
+    PrakrtiScoreModel.php
+
+app/Views/
+    assessment/
+        intro.php            -- Welcome + name/anthro form
+        physical.php         -- Q1-12
+        physiological.php    -- Q13-22
+        psychological.php    -- Q23-33
+        behavioral.php       -- Q34-45
+        ahara_desha.php      -- Dietary pref + location
+        review.php           -- Summary before submit
+    results/
+        prakriti_card.php    -- Main result display
+        ahara_guide.php      -- Pathya-Apathya filtered table
+        prompt_generator.php -- AI prompt + copy + GPT link
+        combined_pdf.php     -- Paste AI response, download combined PDF
+    admin/
+        dashboard.php
+        participants.php
+        export.php
+
+SECTION 5 — CI4 → PYTHON API INTEGRATION CODE (PHP)
+===============================================================
+
+Create a helper class: app/Helpers/PrakrutiApi.php
+
+<?php
+namespace App\Helpers;
+
+class PrakrutiApi {
+    private static string $base = 'http://127.0.0.1:8001';
+
+    public static function call(string $endpoint, array $data = [], string $method = 'POST'): array {
+        $url  = self::$base . $endpoint;
+        $curl = curl_init();
+        curl_setopt_array($curl, [
+            CURLOPT_URL            => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT        => 30,
+            CURLOPT_HTTPHEADER     => ['Content-Type: application/json'],
+        ]);
+        if ($method === 'POST') {
+            curl_setopt($curl, CURLOPT_POST, true);
+            curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
+        }
+        $response = curl_exec($curl);
+        $httpCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        curl_close($curl);
+        if ($httpCode !== 200) {
+            throw new \Exception("API error $httpCode: $response");
+        }
+        return json_decode($response, true);
+    }
+
+    /** Download PDF bytes — returns raw bytes, not JSON */
+    public static function getPdf(string $endpoint, array $data): string {
+        $url  = self::$base . $endpoint;
+        $curl = curl_init();
+        curl_setopt_array($curl, [
+            CURLOPT_URL            => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST           => true,
+            CURLOPT_POSTFIELDS     => json_encode($data),
+            CURLOPT_TIMEOUT        => 60,
+            CURLOPT_HTTPHEADER     => ['Content-Type: application/json'],
+        ]);
+        $bytes = curl_exec($curl);
+        curl_close($curl);
+        return $bytes;
+    }
+}
+
+SECTION 6 — EXAMPLE CI4 CONTROLLER USAGE
+===============================================================
+
+// Submit.php — after user answers all questions:
+public function calculate(): void {
+    $session = session();
+    $data = [
+        'responses' => $session->get('responses'),   // ["1":0, "4":[0,2], ...]
+        'profile'   => $session->get('profile'),      // name, age, gender, etc.
+    ];
+
+    $result = PrakrutiApi::call('/score', $data);
+    // $result contains: trait_pct, quest_op, anthro_op, final_op,
+    //                   prakriti_name, prakriti_icon, conflicts, etc.
+
+    // Save to MySQL
+    $scoreModel = new PrakrtiScoreModel();
+    $scoreModel->save([
+        'seeker_id'    => $session->get('seeker_id'),
+        'final_v'      => $result['final_op']['V'],
+        'final_p'      => $result['final_op']['P'],
+        'final_k'      => $result['final_op']['K'],
+        'prakriti_name'=> $result['prakriti_name'],
+        ...
+    ]);
+    $session->set('score_result', $result);
+    return redirect()->to('/results');
+}
+
+// Results.php — download assessment PDF:
+public function downloadPdf(): void {
+    $session = session();
+    $pdfBytes = PrakrutiApi::getPdf('/pdf/assessment', [
+        'responses' => $session->get('responses'),
+        'profile'   => $session->get('profile'),
+    ]);
+    header('Content-Type: application/pdf');
+    header('Content-Disposition: attachment; filename="ePrakruti.pdf"');
+    echo $pdfBytes;
+    exit;
+}
+
+// Results.php — get AI prompt:
+public function getPrompt(): void {
+    $session = session();
+    $result = PrakrutiApi::call('/prompt', [
+        'responses' => $session->get('responses'),
+        'profile'   => $session->get('profile'),
+    ]);
+    echo json_encode(['prompt' => $result['prompt']]);
+}
+
+SECTION 7 — QUESTION RENDERING IN CI4 VIEW
+===============================================================
+
+The question JSON from GET /questions looks like:
+{
+  "id": 1,
+  "trait": "Physical",
+  "type": "single",
+  "weight": 3,
+  "question": "My body build / physique is",
+  "options": [
+    {"text": "Very lean and thin"},
+    {"text": "Lean"},
+    {"text": "Moderate, well-proportioned"},
+    ...
+  ],
+  "mandatory": true,
+  "guna": "Apachita (Ruksha-Laghu-Vata) / ...",
+  "reference": "Charaka Vimana Sthana 8/96-98",
+  "learn_more": "Vata's Ruksha and Laghu Gunas..."
+}
+
+In your CI4 view, for single-select render as radio buttons.
+For multi-select (type="multi") render as checkboxes.
+Store answers as: session responses["1"] = 0 (option index for single)
+                  session responses["4"] = [0,2,4] (array of indices for multi)
+
+SECTION 8 — SESSION FLOW
+===============================================================
+
+1. Health seeker lands on /assessment/intro
+2. Fills name, DOB, gender, height, weight (save to health_seekers table)
+3. Works through tabs: Physical → Physiological → Psychological → Behavioral
+4. Fills Ahara & Desha tab
+5. Clicks "Calculate My Prakriti" → POST to /submit/calculate
+   → calls Python /score API → saves to prakriti_scores table
+6. Redirect to /results → show Prakriti card
+7. Optional: download Assessment PDF → calls /pdf/assessment
+8. Optional: copy prompt → calls /prompt → user pastes into e-PathyaGPT
+9. Optional: paste AI response + download Combined PDF → calls /pdf/combined
+
+SECTION 9 — PRODUCTION CHECKLIST
+===============================================================
+
+□ Python API running as systemd service on port 8001
+□ Port 8001 NOT exposed to internet (firewall block — only localhost)
+□ CI4 .env has APP_BASEURL set correctly
+□ MySQL credentials in CI4 .env
+□ app/Config/App.php: CSRFProtection enabled
+□ HTTPS on CI4 (SSL cert)
+□ Python API: Change CORS allow_origins to your exact CI4 domain
+□ Backup MySQL daily
+□ Log Python API errors to /var/log/eprakruti_api.log
+
+SECTION 10 — REQUIREMENTS
+===============================================================
+
+requirements_api.txt:
+fastapi==0.111.0
+uvicorn==0.29.0
+reportlab==4.2.0
+pillow==10.3.0
+python-multipart==0.0.9
+pydantic==2.7.0
+
+Install: pip install -r requirements_api.txt

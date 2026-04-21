@@ -1,0 +1,158 @@
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 16, in <module>
+    from fastapi import FastAPI, HTTPException
+ModuleNotFoundError: No module named 'fastapi'
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 16, in <module>
+    from fastapi import FastAPI, HTTPException
+ModuleNotFoundError: No module named 'fastapi'
+[UID:2015][3549653] Child process with pid: 3550208 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 16, in <module>
+    from fastapi import FastAPI, HTTPException
+ModuleNotFoundError: No module named 'fastapi'
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 16, in <module>
+    from fastapi import FastAPI, HTTPException
+ModuleNotFoundError: No module named 'fastapi'
+[UID:2015][3554664] Child process with pid: 3555213 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 16, in <module>
+    from fastapi import FastAPI, HTTPException
+ModuleNotFoundError: No module named 'fastapi'
+[UID:2015][3554664] Child process with pid: 3556854 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 25, in <module>
+    from eprakruti_core import (
+ImportError: cannot import name 'calc_fat_pct' from 'eprakruti_core' (/home/wzwejtmd/pythonapp/eprakruti_core.py)
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 25, in <module>
+    from eprakruti_core import (
+ImportError: cannot import name 'calc_fat_pct' from 'eprakruti_core' (/home/wzwejtmd/pythonapp/eprakruti_core.py)
+[UID:2015][3679702] Child process with pid: 3679779 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 25, in <module>
+    from eprakruti_core import (
+ImportError: cannot import name 'calc_fat_pct' from 'eprakruti_core' (/home/wzwejtmd/pythonapp/eprakruti_core.py)
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 25, in <module>
+    from eprakruti_core import (
+ImportError: cannot import name 'calc_fat_pct' from 'eprakruti_core' (/home/wzwejtmd/pythonapp/eprakruti_core.py)
+[UID:2015][3681368] Child process with pid: 3681382 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 25, in <module>
+    from eprakruti_core import (
+ImportError: cannot import name 'calc_fat_pct' from 'eprakruti_core' (/home/wzwejtmd/pythonapp/eprakruti_core.py)
+Traceback (most recent call last):
+  File "/home/wzwejtmd/pythonapp/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'eprakruti_api.py')
+  File "/opt/alt/python310/lib64/python3.10/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 719, in _load
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "eprakruti_api.py", line 25, in <module>
+    from eprakruti_core import (
+ImportError: cannot import name 'calc_fat_pct' from 'eprakruti_core' (/home/wzwejtmd/pythonapp/eprakruti_core.py)
+[UID:2015][3941979] Child process with pid: 3942025 was killed by signal: 15, core dumped: no
+[ERROR] [UID:2015][4173532] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+[ERROR] [UID:2015][4173532] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+[ERROR] [UID:2015][660563] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+[ERROR] [UID:2015][660563] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+[ERROR] [UID:2015][692804] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+[ERROR] [UID:2015][692804] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+[ERROR] [UID:2015][692804] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+[ERROR] [UID:2015][692804] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+[ERROR] [UID:2015][692804] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'
+[ERROR] [UID:2015][1605954] wsgiAppHandler pApp->start_response() return NULL.
+TypeError: FastAPI.__call__() missing 1 required positional argument: 'send'

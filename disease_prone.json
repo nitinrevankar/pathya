@@ -1,0 +1,47 @@
+{
+  "Vata": [
+    "Neurological disorders",
+    "Anxiety & panic disorders",
+    "Insomnia",
+    "Constipation & bloating",
+    "Arthritis & joint disorders",
+    "Osteoporosis",
+    "Sciatica",
+    "Parkinson's disease",
+    "Tremors & spasms",
+    "Tachycardia",
+    "Dry eczema",
+    "Emaciation",
+    "Numbness in limbs",
+    "Back pain"
+  ],
+  "Pitta": [
+    "Hyperacidity & peptic ulcers",
+    "Psoriasis & skin rashes",
+    "Conjunctivitis & eye inflammation",
+    "Jaundice & liver disorders",
+    "Stomatitis & mouth ulcers",
+    "Hypertension",
+    "Migraines",
+    "Premature greying & baldness",
+    "Inflammatory bowel disease",
+    "Fever & infectious diseases",
+    "Hemorrhagic conditions",
+    "Hyperthyroidism"
+  ],
+  "Kapha": [
+    "Obesity & Metabolic syndrome",
+    "Type 2 Diabetes",
+    "Asthma & Bronchitis",
+    "Congestion & sinusitis",
+    "Hypothyroidism",
+    "Oedema",
+    "Atherosclerosis",
+    "Goitre",
+    "Depression & drowsiness",
+    "Excessive sleep disorders",
+    "Chronic fatigue",
+    "Calf muscle cramps",
+    "Lymphatic disorders"
+  ]
+}
